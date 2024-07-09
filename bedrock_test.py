@@ -10,7 +10,7 @@ bedrock_client = boto3.client(
     region_name = 'us-east-1'   
 )
 
-model_id =  "ai21.j2-mid-v1" 
+model_id =  "Your_Model_Id" 
 
 llm = Bedrock(
     model_id=model_id,
